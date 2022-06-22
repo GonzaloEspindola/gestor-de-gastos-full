@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gestor-de-gastos/static/css/main.beee8397.css",
+    "main.js": "/gestor-de-gastos/static/js/main.502a2d37.js",
+    "index.html": "/gestor-de-gastos/index.html",
+    "main.beee8397.css.map": "/gestor-de-gastos/static/css/main.beee8397.css.map",
+    "main.502a2d37.js.map": "/gestor-de-gastos/static/js/main.502a2d37.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.beee8397.css",
+    "static/js/main.502a2d37.js"
+  ]
+}
