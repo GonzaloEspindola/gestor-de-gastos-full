@@ -2,10 +2,6 @@
 
 Gestor de gastos con sistema de login y CRUD.
 
-Cuenta demo: 
-Email: admindemo@demo.com
-Contraseña: admin123
-
 ## Built With
 
 Backend:
