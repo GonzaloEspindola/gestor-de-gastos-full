@@ -41,28 +41,31 @@ Puedes utilizar el proyecto y sentirte libre de cambiar lo que quieras.
 
 1. Clona el repositorio
    ```sh
-    git clone https://github.com/GonzaloEspindola/portfolio.git
+    git clone https://github.com/GonzaloEspindola/gestor-de-gastos-full.git
     ```
-2. Instala las dependencias
+2. Dirigite a la carpeta backend e instala las dependencias
    ```sh
    npm install
    ```
-3. Crea un archivo .env en la raiz del proyecto siguiendo el siguiente esquema.
-    ```sh
+   
+3. Crea un archivo .env siguiendo el esquema
+   ```sh
       DB_USER: '',
       DB_PASSWORD: '',
       DB_HOST: '',
       DB_NAME: '',
       DB_PORT: '',
+   ```
+   
+4. Inicia el servidor
+   ```sh
+   npm run dev
+   ```
+ 
+5. Dirigete a la carpeta frontend y ejecuta
+    ```sh
+      npm run start
     ```
-4. Dirigete a la raiz de '/backend' y ejecuta
-   ```sh
-    npm run dev
-   ```
-5. Dirigete a la raiz de '/frontend' y ejecuta
-   ```sh
-   npm run start
-   ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
