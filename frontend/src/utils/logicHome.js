@@ -10,7 +10,7 @@ async function createOperation({setOperations}){
         const type = document.getElementById('type').value;
         const category = document.getElementById('category').value;
 
-        const create = await fetch('https://serene-brook-59719.herokuapp.com/tables', {
+        const create = await fetch('http://localhost:3000/tables', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json',
@@ -47,7 +47,7 @@ async function createOperation({setOperations}){
             }
         })
 
-        const update = await fetch('https://serene-brook-59719.herokuapp.com/tables', {
+        const update = await fetch('http://localhost:3000/tables', {
             method: 'GET',
             headers: {
                 'Accept': 'application/json',
@@ -67,7 +67,7 @@ async function createOperation({setOperations}){
 }
 
 async function deleteOperation(id, {setOperations}){
-    const deleteOperations = await fetch(`https://serene-brook-59719.herokuapp.com/tables/${id}`, {
+    const deleteOperations = await fetch(`http://localhost:3000/tables/${id}`, {
         method: 'DELETE',
         headers: {
             'Accept': 'application/json',
@@ -76,7 +76,7 @@ async function deleteOperation(id, {setOperations}){
         }
     })
 
-    const update = await fetch('https://serene-brook-59719.herokuapp.com/tables', {
+    const update = await fetch('http://localhost:3000/tables', {
         method: 'GET',
         headers: {
             'Accept': 'application/json',
@@ -138,7 +138,7 @@ async function postUpdate(id) {
         var category = document.getElementsByClassName(`category${id}`)[0].value;
     }
 
-    const updateOperations = await fetch(`https://serene-brook-59719.herokuapp.com/tables/${id}`, {
+    const updateOperations = await fetch(`http://localhost:3000/tables/${id}`, {
             method: 'PUT',
             headers: {
                 'Accept': 'application/json',

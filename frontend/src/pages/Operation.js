@@ -23,7 +23,7 @@ function Operation({rute}) {
     }
         useEffect(() => {
             (async function () {
-                let data = await fetch('https://serene-brook-59719.herokuapp.com/tables', options)
+                let data = await fetch('http://localhost:3000/tables', options)
                 .then(data => data.json())
                 .then(data => setOperations(data))
             })();
