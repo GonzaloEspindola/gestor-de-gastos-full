@@ -47,14 +47,24 @@ Puedes utilizar el proyecto y sentirte libre de cambiar lo que quieras.
    ```sh
    npm install
    ```
-   
-3. Crea un archivo .env siguiendo el esquema
+3. Crea la base de datos con una tabla llamada 'operations' y otra 'users' siguiendo en siguiente esquema
+
+users
+
+<img src="https://i.ibb.co/HHLP6xJ/users.png">
+
+operations
+
+<img src="https://i.ibb.co/BqVqLq2/operations.png">
+
+
+4. Crea un archivo .env siguiendo el esquema para la conexion a postgres
    ```sh
-      DB_USER: '',
-      DB_PASSWORD: '',
-      DB_HOST: '',
-      DB_NAME: '',
-      DB_PORT: '',
+      DB_USER= '',
+      DB_PASSWORD= '',
+      DB_HOST= '',
+      DB_NAME= '',
+      DB_PORT= '',
    ```
    
 4. Inicia el servidor
@@ -63,6 +73,9 @@ Puedes utilizar el proyecto y sentirte libre de cambiar lo que quieras.
    ```
  
 5. Dirigete a la carpeta frontend y ejecuta
+    ```sh
+      npm install
+    ```
     ```sh
       npm run start
     ```
